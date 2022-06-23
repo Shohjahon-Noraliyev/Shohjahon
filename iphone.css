@@ -1,0 +1,11 @@
+body {
+    background-color: rgba(0, 0, 0, 0.821);
+}
+
+.rasm {
+    position: relative;
+    width: 700px;
+    height: 500px;
+    left: 220px;
+    border: none;
+}

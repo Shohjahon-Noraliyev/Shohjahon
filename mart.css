@@ -1,0 +1,58 @@
+h1 {
+  text-align: center;
+}
+
+.wrapper {
+  width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.wrapper .price {
+  width: 350px;
+  padding: 1rem;
+  background-color: lightgreen;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+.wrapper .price .photo {
+  width: 100%;
+  border-radius: 16px;
+  height: 320px;
+}
+
+.wrapper .price .price2 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.wrapper .price p {
+  color: brown;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+}
+
+.wrapper .price .btn {
+  color: aqua;
+  background-color: purple;
+  border-radius: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0 1rem;
+}
+/*# sourceMappingURL=style.css.map */

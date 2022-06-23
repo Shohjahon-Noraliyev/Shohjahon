@@ -1,0 +1,95 @@
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .wrapper {
+            position: relative;
+            top: 170px;
+            width: 900px;
+            padding: 1rem;
+            margin: 0 auto;
+            border: 1px solid black;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        a:hover {
+            color: red;
+        }
+        
+        .date {
+            opacity: 0.7;
+        }
+        
+        .data a {
+            color: burlywood;
+        }
+        
+        .foto {
+            color: gray;
+        }
+        
+        .fonli-text {
+            display: inline-block;
+            margin-left: .5rem;
+            border-left: 3px solid blue;
+            line-height: 2rem;
+            width: 95%;
+            padding-left: 1rem;
+            vertical-align: middle;
+        }
+        
+        .telegram-block {
+            margin-top: 10px;
+            background: rgb(36, 149, 213);
+            padding: 8px;
+            text-align: center;
+            width: 100%;
+            color: rgb(255, 255, 255);
+            display: block;
+            border-radius: 1px;
+            font-size: 110%;
+        }
+        
+        .hashtag {
+            height: 4rem;
+            color: rgb(4, 81, 133);
+        }
+        
+        .comments {
+            display: flex;
+            margin: 2rem auto;
+        }
+        
+        .comments div {
+            /* line-height: 5rem; */
+            margin-right: 3rem;
+            position: relative;
+            width: 150px;
+            height: 2rem;
+        }
+        
+        .cmt-img {
+            margin-right: 10px;
+            width: 2rem;
+            height: 2rem;
+            position: absolute;
+            bottom: 10px;
+            background-color: #fff;
+        }
+        
+        .comments b {
+            vertical-align: middle;
+            position: absolute;
+            left: 22px;
+            padding-left: 10px;
+        }
+        
+        .btn-btn-primary {
+            width: 15px;
+            height: 10px;
+            background-color: #e7fcff;
+            color: blue;
+        }

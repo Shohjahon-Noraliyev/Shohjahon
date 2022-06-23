@@ -1,0 +1,57 @@
+.foods {
+    position: relative;
+    top: 80px;
+    width: 100%;
+    background-color: #ddd;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.food {
+    position: relative;
+    width: 300px;
+    top: 0px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(172, 218, 202);
+}
+
+.shakl {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    /* overflow: hidden; */
+    border: 1px solid rgb(34, 34, 34);
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price p {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0;
+}
+
+.btn {
+    padding: 5px;
+    background-color: green;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.btn:hover {
+    background: red;
+    cursor: pointer;
+}
+
+.foto {
+    border-radius: 160%;
+    width: 300px;
+}
