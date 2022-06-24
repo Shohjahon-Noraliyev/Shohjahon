@@ -8,6 +8,10 @@
     justify-content: space-between;
 }
 
+.page {
+    position: relative;
+    top: 70px;
+}
 
 .food {
     position: relative;
